@@ -1,0 +1,117 @@
+
+
+body  {
+    height: 100%;
+    background-image: url('./img/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    background-attachment: fixed; /* Keep the background fixed */
+    color: #F168BF;
+    font-family:  'Poppins', sans-serif; 
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+    margin-bottom: 100px;
+    background-color: #f5e9ef;
+    border-radius: 20px;
+}
+
+a {
+    font-weight: 400;
+    color: #F168BF;
+}
+
+a:hover, a:active, a:focus {
+    color: #CCAEFA;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 3.2rem;
+    font-weight: 700;
+    padding-top: 30px;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+.item-notepad {
+    background-image: url('./img/notepad.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.notepad {
+    min-height: 450px;
+}
+
+.notepad-text {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.notepad-text textarea {
+    height: 200px; /* Adjust the height to your preference */
+    background-color: rgba(255, 255, 255, 0); /* Adjust the alpha channel for transparency */
+    border-width: 0;
+}
+
+.notepad-text textarea:focus {
+    outline: none; 
+    background-color: rgba(255, 255, 255, 0); 
+    border-width: 0;
+    background-color: transparent;
+    border: 0px solid;
+
+}
+
+.form-control:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+
+.item {
+    margin: 40px 0 40px 50px;
+}
+
+.searchbar {
+    background-color: white;
+    border: 3px solid #E6D6FD;
+    border-radius: 15px;
+    padding: 10px;
+    min-width: 300px;
+
+}
+
+.button {
+    border-radius: 15px;
+    background-color: #E6D6FD;
+    border: 3px solid #E6D6FD;
+    padding: 10px;
+    color: #F168BF;
+    font-weight: 700;
+}
+
+.button:hover {
+    background-color: #FFF2C7;
+}
+
+
+
+@media all and (max-width: 991px) {
+    .item {
+        margin: 60px 20px;
+    }
+}

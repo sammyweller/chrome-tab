@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <title>Sammy's Chrome Exstension</title>
+</head>
+<body>
+
+    <div class="container">
+      <div class="row">
+        <!-- Left Side Content -->
+        <div class="col-lg-6 ">
+          <div class="item">
+            <!-- left side item: title -->
+            <h1>Hey there, Sammy</h1>
+          </div>
+    
+          <div class="item">
+            <!-- left side item: links -->
+            <h2>Where should we go?</h2>
+            <ul>
+                <li><a href="https://www.linkedin.com/" target="_blank">LinkedIn &#10084;</a></li>
+                <li><a href="https://mail.google.com/mail/u/1/" target="_blank">Gmail &#10084;</a></li>
+                <li>
+                  <a href="https://github.com/" target="_blank">GitHub &#10084;</a>
+                </li>
+              </ul>
+          </div>
+    
+          <div class="item">
+            <!-- left side item: google search -->
+            <form action="https://www.google.com/search" target="_blank">
+              <input name="q" id="google-search" class="searchbar" type="text" placeholder="Search Google.." />
+              <button class="button" type="submit">search</button>
+            </form>
+          </div>
+
+
+          <div class="item">
+            <!-- left side item: weather -->
+            <h2>In Atlanta &#9728;</h2>
+            <p id="weather-info">Loading...</p>
+          </div>
+        </div>
+    
+        <!-- Right Side Content -->
+        <div class="col-lg-6 ">
+          <div class="item item-notepad">
+            <!-- right side item: to-do pad -->
+            <div class="notepad">
+              <div class="notepad-text">
+                <h2>To do:</h2>
+                <textarea id="noteContent" class="form-control" placeholder="Start typing..."></textarea>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+    </body>
+</html>
