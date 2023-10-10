@@ -6,7 +6,7 @@ body  {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
-    background-attachment: fixed; /* Keep the background fixed */
+    background-attachment: fixed;
     color: #F168BF;
     font-family:  'Poppins', sans-serif; 
 
@@ -61,8 +61,8 @@ h2 {
 }
 
 .notepad-text textarea {
-    height: 200px; /* Adjust the height to your preference */
-    background-color: rgba(255, 255, 255, 0); /* Adjust the alpha channel for transparency */
+    height: 200px; 
+    background-color: rgba(255, 255, 255, 0); 
     border-width: 0;
 }
 
